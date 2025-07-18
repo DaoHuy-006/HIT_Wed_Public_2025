@@ -1,0 +1,116 @@
+/* Tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề chính */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Ảnh đại diện */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+/* Đoạn giới thiệu */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Sở thích */
+ul {
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-type: square;
+}
+
+/* Bảng kỹ năng */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:first-child {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Form liên hệ */
+form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Navbar */
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.blog-section {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.baiviet {
+  flex: 2; /* chiếm 2 phần */
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.noibat {
+  flex: 1; /* chiếm 1 phần */
+  background-color:#e6f7ff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tieude-xanh {
+  color: #007bff;
+}
