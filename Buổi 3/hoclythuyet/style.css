@@ -1,0 +1,17 @@
+.nen{
+    border: 10px salmon ;
+    padding: 20px;
+    background-color: brown;
+    width: 40%;
+}
+p{
+    color: aqua;
+    background-color: yellow;
+}
+h1{
+    color: red ;
+    background-color: black;
+}
+h1{
+    color: green;
+}

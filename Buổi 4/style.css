@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Container tổng */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Tiêu đề */
+.container h2 {
+  background-color: #2196f3;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Lưới card */
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+/* Thẻ card */
+.card {
+  flex: 1 1 calc(20% - 20px); /* 5 cột mỗi hàng nếu đủ rộng */
+  min-width: 200px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  word-wrap: break-word;    
+  overflow-wrap: break-word;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}
+h3{
+    color: #3598db;
+}
